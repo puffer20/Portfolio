@@ -63,6 +63,35 @@ export const projects: Project[] = [
     link: { label: "View on GitHub", href: "https://github.com/chipkarsaish/client_managment_system_Springboot.git" },
     visual: "client-management",
   },
+  {
+    id: "fraud-detection",
+    number: "03",
+    category: "Python · Machine Learning · Data Engineering",
+    title: "Real-Time Fraud Detection System",
+    subtitle: "Machine Learning · XGBoost · Kafka · Streamlit",
+    description: "Developed a machine learning-based fraud detection system using XGBoost to identify potentially fraudulent transactions. Integrated Apache Kafka for real-time transaction streaming and Streamlit for interactive monitoring and visualization.",
+    technology: [
+      "Python",
+      "XGBoost",
+      "Scikit-learn",
+      "Apache Kafka",
+      "Streamlit",
+      "Pandas"
+    ],
+    tags: [
+      "Machine Learning",
+      "Fraud Detection",
+      "Real-Time Processing",
+      "XGBoost",
+      "Kafka"
+    ],
+    categories: ["Python", "AI", "Data Engineering"],
+    link: {
+      label: "View on GitHub",
+      href: "https://github.com/chipkarsaish/Fraud_Detection_Collage_Mini_Project_SemV.git"
+    },
+    visual: "stream",
+  },
 ];
 
 export interface Certification {
@@ -161,7 +190,7 @@ export const approach = [
 
 export const profile = {
   name: "Saish Chipkar",
-  role: "Software Developer · Data Science & Machine Learning",
+  role: "Software Developer · Data Science · Cloud Engineering",
   location: "Mumbai, India",
   email: "saish.chipkar25@gmail.com",
   github: "https://github.com/chipkarsaish",
